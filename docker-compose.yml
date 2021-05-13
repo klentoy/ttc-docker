@@ -1,11 +1,11 @@
 version: '3.5'
 
 services:
-    laravel-app:
+    ttc-app:
         build:
             context: '.'
             dockerfile: ./Dockerfile
-        container_name: laravel-app
+        container_name: ttc-app
         volumes:
             - ./src:/var/www/html
         networks:
